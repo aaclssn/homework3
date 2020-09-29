@@ -48,22 +48,28 @@ table{
 }
 
 .rowhead{ 
-  border: 
+  border: 2px; 
 }
 
-td{ 
+td{  
+  
+  border: 1px 4px 6px solid #c6c7cc;
+  padding: 10px 15px;
+  td:nth-child(even) {background-color: #D1D1D1}
   
 }
 
 tr{
-  tr:nth-child(even) {background-color: #f2f2f2;}
+  background-color: #f2f2f2;
 }
 
 *{
 
 }
 
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child{
+  
+}
 
 footer{
   width:100%;
@@ -71,4 +77,3 @@ footer{
   text-align:center;
   color: #FFFFFF;
 }
-
