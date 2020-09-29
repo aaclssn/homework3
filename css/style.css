@@ -47,16 +47,16 @@ table{
   color: #FFFFFF;
 }
 
-.rowhead{
-
+.rowhead{ 
+  border: 
 }
 
-td{
+td{ 
   
 }
 
 tr{
-
+  tr:nth-child(even) {background-color: #f2f2f2;}
 }
 
 *{
